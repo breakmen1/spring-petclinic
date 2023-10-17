@@ -13,24 +13,14 @@
   <name>petclinic</name>
 
   <properties>
-  
-    <!--sonar.login -->
-	<properties>
+    <!-- Define your properties here -->
     <sonar.login>sqp_e5e94b2d8e9f4b0b436eaab4b7383f851f778e35</sonar.login>
-  </properties>
-
-
-    <!-- Generic properties -->
     <java.version>17</java.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-    <!-- Important for reproducible builds. Update using e.g. ./mvnw versions:set -DnewVersion=... -->
     <project.build.outputTimestamp>2023-05-10T07:42:50Z</project.build.outputTimestamp>
-
-    <!-- Web dependencies -->
     <webjars-bootstrap.version>5.2.3</webjars-bootstrap.version>
     <webjars-font-awesome.version>4.7.0</webjars-font-awesome.version>
-
     <checkstyle.version>10.11.0</checkstyle.version>
     <jacoco.version>0.8.10</jacoco.version>
     <libsass.version>0.2.29</libsass.version>
@@ -38,8 +28,12 @@
     <maven-checkstyle.version>3.2.2</maven-checkstyle.version>
     <nohttp-checkstyle.version>0.0.11</nohttp-checkstyle.version>
     <spring-format.version>0.0.39</spring-format.version>
-
   </properties>
+
+  <!-- The rest of your POM.xml remains unchanged -->
+
+</project>
+
 
   <dependencies>
     <!-- Spring and Spring Boot dependencies -->
